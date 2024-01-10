@@ -4,20 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galina Chechkina</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <h1>Welcome to Galina Chechkina's page!</h1>
-    <p>Здесь обычно бывает небольшой, позитивный рассказ,</p>
-    <p> который привлекает внимание попавшего на страничку человека.</p>
-    <img src="media/women.jpg" alt="women">
+    <div class="c1">
+        <p>Здесь обычно бывает небольшой, позитивный рассказ,</p>
+        <p> который привлекает внимание попавшего на страничку человека.</p>
+        <a target="_blank" href="docs/project.html">ссылка на супер-проект</a>
+    </div>
     <h2>О себе</h2>
-    <p>А здесь небольшое эссе о себе и своих профессиональных навыках.</p>
-    <p>Не забудем заострить внимание на своих soft-skills.</p>
-    <p>Но я, к сожалению, терпеть не могу расхваливать себя на все лады.</p>
-    <p>Поэтому отнеслась к этому заданию со всей несерьезностью.</p>
-    <h2>Контакты</h2>
-    <p>E-mail: galina.chechkina@gmail.com</p>
-    <p>Phone:  +4917647635350</p>
-    <a target="_blank" href="docs/index.html">Резюме</a> 
+    <img src="media/women.jpg" alt="women">
+    <div class="c2">
+        <p>А здесь небольшое эссе о себе и своих профессиональных навыках.</p>
+        <p>Не забудем заострить внимание на своих soft-skills.</p>
+        <h3>Вставим какой-нибудь списочек</h3>
+        <ul>
+            <li>строка 1</li>
+            <li>строка 2</li>
+            <li>строка 3</li>
+            <li>строка 4</li>
+            <li>строка 5</li>
+        </ul>
+        <p>Но я, к сожалению, терпеть не могу расхваливать себя на все лады.</p>
+        <p>Поэтому отнеслась к этому заданию со всей несерьезностью.</p>
+    </div>
+    <div class="c3">
+        <h2>Контакты</h2>
+        <p>E-mail: galina.chechkina@gmail.com</p>
+        <p>Phone:  +4917647635350</p>
+        </div>
+    <a class="link" target="_blank" href="docs/index.html">Резюме</a> 
+    <form id="add_comment" action="https://jsonplaceholder.typicode.com/posts" method="post">
+        <h3>Вы можете оставить свой комментарий:</h3>
+        <div>
+            <input type="text" name="comment" placeholder="comment">
+            <button type="submit">Send</button>
+        </div>  
+    </form>
 </body>
 </html>
