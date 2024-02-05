@@ -1,9 +1,11 @@
 #img1{
-    width: 300px;
-    height: 200px;
+    width: 500px;
+    height: 300px;
     margin: 30px;
 }
 .project{
-    color: blue;
+    width: 500px;
+    color: rgba(40, 40, 134,0.8);
+    font-size: large;
     margin: 30px;
 }
